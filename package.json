@@ -1,0 +1,23 @@
+{
+  "name": "word-search-program",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "word-search": "./index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "words searcher in the grid",
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "^11.7.1"
+  }
+}
